@@ -1,0 +1,67 @@
+.cover-img{
+    background-image: url('../css/echovc_icons/Gradient.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-trial{
+    background: #f8f8f8;
+}
+
+.landing-img{
+    background-image: url('../css/icons/land.png') ;
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    
+    background-size: contain;
+
+}
+
+.description{
+    margin-top: 6rem;
+}
+
+.btn-outline-dark:hover{
+    color: #ffffff !important;
+}
+
+.analysis p{
+    font-size: 1.4rem;
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 16px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 16px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 16px 5px 0px rgba(0,0,0,0.75);
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    margin-top: -.2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.social{
+    margin-left: 1rem;
+}
+
+@media (min-width: 900px){
+    .analy{
+        margin-left: 5.5rem;
+    }
+}

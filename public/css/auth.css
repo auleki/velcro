@@ -1,0 +1,56 @@
+
+
+@media(max-width: 1440px){
+    .forget-link{
+      margin-left: 11.6rem !important;
+    }
+  }
+  
+  @media(max-width: 1024px){
+    .forget-link{
+      margin-left: 4.25rem !important;
+    }
+  
+    .btn-signin{
+      width: 33.7rem !important;
+    }
+  }
+  @media (max-width: 768px){
+    .forget-link{
+      margin-left: -5.7rem !important;
+    }
+    .btn-signin{
+      width: 23.8rem !important ;
+    }
+  }
+  
+  @media (max-width: 425px){
+    .forget-link{
+      position: relative !important;
+      left: 180% !important;
+    }
+    .btn-signin{
+      width: 21.9rem !important;
+    }
+  }
+  
+  
+  @media (max-width: 375px){
+    .forget-link{
+      position: inherit;
+      left: 140% !important;
+    }
+    .btn-signin{
+      width: 19rem !important;
+    }
+  }
+  
+  @media (max-width: 320px ) {
+    /* .forget-link{
+      margin-left: -13.8rem !important;
+    } */
+    .btn-signin{
+      width: 15.8rem !important;
+    }
+  }
+  

@@ -1,0 +1,454 @@
+
+/* Add company tyles */
+
+.form-search{
+    margin-top: 5rem;
+    position: relative;
+    left: -20rem
+}
+
+.not-desktop-content{
+    visibility: hidden;
+}
+
+.slider{
+    background-color: #7AEF1F;
+}
+
+input:checked + .slider {
+    background-color: #FD0606;
+}
+.panel-heading a:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    float: right;
+    margin-left: 12rem;
+    transition: all 0.2s;
+}
+.Twrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+}
+
+@media (max-width: 425px){
+    .Twrapper{
+        margin-top: 5rem !important;
+    }
+    .empty{
+        width: 100%;
+        margin-left: -0.5rem;
+    }
+
+    p.company-text{
+        width: 70%;
+        margin-left: 4.5rem;
+    }
+    .filter{
+        position: relative;
+        left: 5rem !important;
+    }
+    .company-image{
+         width: 70%;
+        /* margin-left: 5rem; */
+        position: relative;
+        left: 2rem;
+    }
+    .con{
+        margin-left: 2.4rem;
+    }
+    .company-btn{
+        position: relative;
+        left: 1rem;
+    }
+    .form-search{
+        margin-top: 5rem;
+        position: relative;
+        left: -3rem !important;
+    }
+}
+
+/* Add company styles */
+
+
+.heading{
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+.newrep{
+    position: relative;
+    left: 26rem !important;
+}
+
+@media (max-width: 425px){
+    .newrep{
+        position: relative;
+        left: 3rem !important;
+        width: 21rem !important;
+    }
+    h3{
+        font-size: 1.5rem !important;
+    }
+    .company-img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+
+    h3{
+        font-size: 1.5rem !important;
+    }
+    .empty{
+        width: 100%;
+        margin-left: -0.5rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 360px){
+    .form-control{
+        width: 100%;
+    }
+    h3{
+        font-size: 1.5rem !important;
+    }
+}
+
+
+
+/* View Company Styles */
+.form{
+    margin-top: -3rem !important;
+}
+
+.filter{
+    width: 60%;
+    margin-left: 27rem;
+    margin-top: -8.3rem;
+}
+
+.reboard{
+
+        position: relative;
+        margin-left: 12rem;
+            display: block;
+            /* justify-content: flex-start; */
+}
+
+body{
+    font-family: 'Nunito' sans-serif;
+    font-weight: 400;
+}
+
+.btn-company{
+    /* font-size: normal ; */
+    /* line-height: 18px; */
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-left: 0 !important;
+    /* background: linear-gradient(180deg, #2E7CFF 0%, #1B63DC 100%); */
+    border-radius: 4px;
+    background: linear-gradient(180deg, #2E7CFF 0%, #1B63DC 100%, #1B63DC 100%);
+    width: 5rem;
+}
+
+.text{
+    position: relative;
+    left: 55%;
+    top: -3.5rem;
+}
+.head {
+    position: relative;
+    width: auto !important;
+    /* height: 2rem; */
+
+    left: 1.5rem;
+    top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    cursor: pointer;
+  }
+
+
+.card{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border: 1px solid #F4F4F4;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 425px){
+    .reboard{
+        position: relative;
+        margin-left: 1.6rem;
+        margin-top: -.8rem;
+
+    }
+    .small{
+        display: none;
+    }
+    .back{
+        position: relative;
+        left: 8rem;
+        font-size: 1.4rem;
+        margin-top: -2.8rem;
+        margin-left: 5rem;
+    }
+    .btn-add{
+      margin-top: 8rem;
+      margin-bottom: 4rem;
+      position: relative;
+      left: -14rem;
+      padding: .8rem;
+
+    }
+
+
+    .filter{
+      margin-top: 0.2rem !important;
+      margin-bottom: 3rem;
+      position: relative;
+      margin-left: 0;
+      left: 5rem !important;
+      padding: 1.7rem;
+      width: 10rem !important;
+    }
+
+
+    h3{
+        font-size: 1.85rem;
+    }
+    .search-form{
+        margin-left: 2rem;
+
+        font-size: 1.8rem;
+        width: 24.5rem !important;
+    }
+    .search-btn{
+        margin-left: -5rem;
+        height: 4rem;
+        width: 5rem;
+    }
+    .text{
+        display: none;
+    }
+
+    .mobo{
+        margin-top: -2rem;
+    }
+}
+
+
+
+  @media (max-width: 375px){
+      .reboard{
+          position: relative;
+          margin-left: 1.6rem;
+          margin-top: -.8rem;
+
+      }
+      .small{
+          display: none;
+      }
+      .back{
+          position: relative;
+          left: 8rem;
+          font-size: 1.4rem;
+          margin-top: -2.8rem;
+          margin-left: 5rem;
+      }
+      .btn-add{
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        position: relative;
+        left: -11rem;
+        padding: .8rem;
+
+      }
+
+      .filter{
+        margin-top: .1rem !important;
+        margin-bottom: 4rem !important;
+        position: relative;
+        left: 4rem !important;
+        padding: 1.7rem;
+        margin-left: 0;
+        width: 10rem !important;
+      }
+
+
+      h3{
+          font-size: 1.85rem;
+      }
+      .search-form{
+          margin-left: 2rem;
+
+          font-size: 1.8rem;
+          width: 21.5rem !important;
+      }
+      .search-btn{
+          margin-left: -5rem;
+          height: 4rem;
+          width: 5rem;
+      }
+      .text{
+          display: none;
+      }
+
+  }
+
+  /* Single Company styles */
+
+  .page-setup{
+    position: relative;
+    left: 12.4rem;
+    margin: 0;
+    top: 1.5rem;
+  }
+
+  .life-img{
+      width: 10rem;
+      border-radius: 5px;
+  }
+
+  .info{
+      margin-left: 0.5rem;
+  }
+
+  .toggle{
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+  }
+
+  .toggler{
+    font-size: 2rem;
+    color: #7AEF1F;
+  }
+
+  ul > li > a{
+      color: #000000;
+
+  }
+
+  ul > li > a:hover{
+    color: #000000;
+
+}
+ul > li > a.activer{
+    border-bottom:2px solid #19B9FD;
+}
+
+.btn-share{
+    background: linear-gradient(359.6deg, #F5F6F9 10.29%, #FFFFFF 99.27%);
+/* secondary button border */
+
+    border: 1px solid #D5DCE6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: black;
+    width: 6rem;
+    margin-top: -.4rem;
+}
+
+.details{
+    /* width: 90rem; */
+    /* overflow-x: auto; */
+    max-height: 180vw;
+    background-color: #FDFDFD;
+    padding: 15px;
+}
+/* width */
+.details ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .details ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .details  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  .details ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .rounded-circle{
+      background-color: #6DA544;
+      /* background: none; */
+      border: none;
+      font-size: 1.4rem;
+  }
+
+  .rounded-p{
+      border-radius: 1.7rem !important;
+  }
+
+  /* Single company */
+
+  @media(max-width: 500px){
+      .page-setup{
+          margin-left: 0;
+          z-index: -1;
+      }
+      .reports-part{
+          display: none;
+      }
+      .notes{
+          display: none;
+      }
+      .files{
+          display: none;
+      }
+      .contact{
+          display: none;
+      }
+      .backText{
+          display: none;
+      }
+      .funding{
+          display: none;
+      }
+      .performance{
+          display: none;
+      }
+      .irr{
+          display: none;
+      }
+      .other{
+          display: none;
+      }
+      .list-table{
+          margin-top: 0rem !important;
+          padding: 1rem;
+      }
+      .info{
+          margin-left: 1.3rem;
+          margin-top: 2rem;
+      }
+      .life-bank{
+          margin: 1em;
+      }
+      .open{
+        position: relative;
+        left: 4rem;
+      }
+      .life-section{
+          position: relative;
+          top: 5rem;
+      }
+      .life-img{
+        margin-left: 1.5rem;
+        width: 80%;
+        margin-top: 3rem;
+        border-radius: 5px;
+      }
+  }

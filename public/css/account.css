@@ -1,0 +1,235 @@
+
+.account_header{
+    margin-left: 2.4rem;
+    margin-top: 2.4rem;
+    font-size: 1.7rem;
+}
+
+.side{
+    margin-top: 6rem;
+     margin-left: 6rem
+}
+
+.border-ri{
+    min-height: 100vh !important;
+    margin-left: -3rem;
+    border-right: 1px solid rgba(124, 123, 123, 0.7);
+}
+
+.list-group-item{
+    width: 12rem;
+    text-align: center;
+    border: none;
+}
+
+.profile-form{
+    margin-top: 6rem;
+    margin-left: 2rem;
+    /* width: 70%;  */
+}
+
+.btn-profile{
+    background: linear-gradient(180deg, #2E7CFF 0%, #1B63DC 100%, #1B63DC 100%) !important;
+    border-radius: 4px;
+    width: 6rem;
+}
+
+.profile-form a{
+    /* font-family: Europa; */
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #2E7CFF;
+
+}
+
+.upload{
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+.box{
+    background: #FFFFFF;
+    height: 7.625rem;
+    width: 7.625rem;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+img.box-img{
+    height: 7.625rem;
+    width: 7.625rem;
+    padding: 0.5rem;
+}
+
+.btn-upload{
+    background: linear-gradient(359.75deg, #F5F6F9 10.29%, #FFFFFF 99.27%);
+/* secondary button border */
+
+    border: 1px solid #D5DCE6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 1rem;
+    width: 7.625rem;
+    color:  #333333;
+    font-size: .85rem;
+}
+
+.permission:hover{
+    padding-right: 2rem !important;
+}
+/* .input-style{
+    width: 33rem;
+} */
+.upload-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+
+  }
+.permission-right{
+    margin-left: -3rem;
+    border-right: 1px solid rgba(124, 123, 123, 0.7);
+    min-height: 120vh;
+}
+
+  .upload-btn input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  input[type='checkbox']{
+      width: 2.5rem;
+      height: 2.5rem;
+  }
+  .regular-checkbox {
+	-webkit-appearance: none;
+	/* background-color: #fafafa; */
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 14px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+.regular-checkbox:active, .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked {
+	background-color: #ffffff;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #030303;
+    outline: none;
+}
+
+.regular-checkbox:checked:disabled {
+	background-color: #f8f8f8;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 2.5rem;
+	position: absolute;
+	top: -.7rem;
+	left: 1px;
+    color: #99a1a7;
+    outline: none;
+}
+
+
+@media (max-width: 425px){
+    .account_header{
+        margin-left: 4rem;
+        margin-top: 1.75rem;
+        font-size: 1.5rem;
+    }
+    .upload{
+        margin-top: -42rem;
+        margin-left: 17ch;
+    }
+    .list-group-item{
+        background: #f8f8f8;
+        margin-left: 2.5rem;
+        border-bottom: .8px solid rgba(124, 123, 123, 0.7);
+    }
+    .border-ri{
+        border-right: none;
+        min-height: 43vh !important;
+    }
+    .permission-right{
+        margin-left: -3rem;
+        border-right: 1px solid rgba(124, 123, 123, 0.7);
+        min-height: 1vh;
+    }
+    .profile-form{
+        margin-left: 1.4rem;
+        width: 88%;
+    }
+    .input-style{
+        width: 25.5rem;
+    }
+    .btn-profile{
+        width: 96%;
+    }
+    /* .changePass{
+        position: relative !important;
+        left: 8.5rem !important;
+    }
+    .changeEmail{
+        position: relative !important;
+        left: 15.6rem !important;
+    }
+} */
+}
+@media (max-width: 375px){
+    .input-style{
+        width: 23rem;
+    }
+    .changePass{
+        position: relative !important;
+        left: 6rem !important;
+    }
+    .changeEmail{
+        position: relative !important;
+        left: 13.1rem !important;
+    }
+}
+
+@media(max-width: 320px){
+    .account_header{
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    .border-ri{
+        border-right: none;
+        min-height: 50vh !important;
+        margin-left: -4rem !important;
+    }
+    .upload{
+        /* margin-top: -48rem; */
+        margin-left: 7rem;
+    }
+
+    .input-style{
+        width: 21rem;
+    }
+    .changePass{
+        position: relative !important;
+        left: 4rem !important;
+    }
+    .changeEmail{
+        position: relative !important;
+        left: 11.1rem !important;
+    }
+}
+

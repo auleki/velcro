@@ -1,0 +1,56 @@
+.account_header{
+    margin-left: 3rem;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 75%;
+    margin-top: 8rem !important;
+}
+
+@media(max-width: 425px){
+ 
+        .account_header{
+            margin-left: 1.4rem;
+        }
+        .header{
+            margin-left: 2rem;
+        }
+        .btn-upload{
+            position: relative;
+            left: 4.6rem;
+        }
+        .wrap{
+            margin-left: 2.5rem !important;
+            background-size: contain;
+        }
+    
+}
+
+
+@media (max-width: 375px){
+    .account_header{
+        margin-left: 1rem;
+    }
+    .header{
+        margin-left: 2rem;
+    }
+    .btn-upload{
+        position: relative;
+        left: 4.6rem;
+    }
+    .wrap{
+        margin-left: 2.5rem !important;
+        background-size: contain;
+    }
+}
+
+@media(max-width: 320px){
+    .btn-upload{
+        position: relative;
+        top: -2.1rem;
+        left: 4rem;
+    }
+}

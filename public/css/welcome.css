@@ -1,0 +1,174 @@
+.wholeContent{
+    width: 90%;
+    position: absolute;
+      left: 8em;
+      top: .5em;
+    /* margin-left: -6rem; */
+}
+
+.funds a{
+  color: #333333;
+  font-size: 16px;
+}
+.ml-20{
+  margin-left: 6.5rem;
+}
+
+.funds h3{
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+
+  color: #333333;
+}
+
+.align{
+    margin-left: -.78em;
+}
+
+/* width */
+#scroll1 ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#scroll1 ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#scroll1 ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+#scroll1  ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.panel-heading {
+  padding: 0;
+      border:0;
+}
+
+.panel-title>a {
+  display:block;
+  /* padding:15px; */
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+  text-transform:capitalize;
+  letter-spacing:1px;
+  word-spacing:3px;
+  text-decoration:none;
+}
+
+.panel-heading  .chart-title:before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+  /* float: right; */
+  transition: all 0.2s;
+}
+
+.quarters .panel-heading  a:before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+  position: absolute;
+  left: 3.4rem;
+  transition: all 0.2s;
+}
+.invest .panel-heading a:before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+    position: absolute;
+    float: left;
+    left: 2rem;
+    transition: all 0.2s;
+}
+.permissions a{
+  color: #333333;
+  font-size: 14px;
+}
+.quarters{
+  margin-left: -.75rem;
+}
+.quarters .panel-body{
+  margin-top: -19%;
+}
+
+.invest .panel-body{
+    margin-top: -6rem;
+  }
+
+.quarters a{
+  color: #333333;
+}
+.overflow{
+    overflow-y: scroll;
+
+}
+
+.non-desktop-content{
+  visibility: hidden;
+}
+
+/* Mobile screens with max-width of 700px */
+@media (max-width: 700px){
+    .wholeContent{
+        position: absolute;
+        left: 2rem;
+        width: 92%;
+    }
+
+    #scroll1{
+        position: relative;
+        left: -1.7rem;
+    }
+
+    h3{
+        margin-left: 1rem;
+        margin-top: -0.3rem;
+    }
+}
+
+/* Mobile screens starting from 500px */
+
+@media(max-width: 500px){
+  .wholeContent{
+    /* margin: 0; */
+    position: relative;
+    top: 0.3rem;
+    left: 1rem;
+    width: 94%;
+  }
+
+  .mobile-btns{
+      margin-left: auto;
+  }
+
+  h3{
+    position: relative;
+    left: 2rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .notMobileContent{
+    display: none;
+  }
+
+  .non-desktop-content{
+    visibility: visible;
+  }
+
+  .funds-list{
+    margin-left: 0;
+  }
+
+  .sidebar hr{
+    width: 100% !important;
+  }
+
+  #scroll1{
+    position: relative;
+    left: 0rem; 
+  }
+
+}

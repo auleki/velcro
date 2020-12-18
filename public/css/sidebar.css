@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family:europa;
+  src:url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+  font-weight:300;
+  font-style:normal;
+ }
+ @font-face{
+  font-family:europa;
+  src:url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/a?subset_id=2&fvd=i3&v=3) format("opentype");
+  font-weight:300;
+  font-style:italic;
+ }
+ @font-face{
+  font-family:europa;
+  src:url(https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+  font-weight:400;
+  font-style:normal;
+ }
+ @font-face{
+  font-family:europa;
+  src:url(https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+  font-weight:400;
+  font-style:italic;
+ }
+ @font-face{
+  font-family:europa;
+  src:url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+  font-weight:700;
+  font-style:normal;
+ }
+ @font-face{
+  font-family:europa;
+  src:url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
+  font-weight:700;
+  font-style:italic;
+ }
+
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+html, body {
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+.sidebar {
+  height: 100% ;
+  width: 12.3rem;
+  position: fixed;
+  background: #39406D;
+  color: #cccccc;
+}
+
+/* #menuLinks a .active{
+  background-color: red;
+} */
+
+.logo {
+  position: absolute;
+  width: 4.5rem;
+  height: 1.8rem;
+  left: 0.75rem;
+  top: 0.7rem;
+  background: url(icons/echoVC.png);
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.sidebar ul {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  color: #CCCCCC;
+  position: absolute;
+  width: auto;
+  height: 1rem;
+  left: 0.75rem;
+  top: 2.5rem;
+}
+/*
+.fa-search {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 5.6rem;
+  background: #FFFFFF;
+  border-radius: 100px;
+  cursor: pointer;
+} */
+
+.search-icon{
+  margin-top: -1.7rem;
+  margin-right: .5rem;
+  z-index: 4;
+
+  /* height: 3rem; */
+}
+.sidebar hr {
+  position: relative;
+  width: auto;
+  height: 0px;
+  left: 0px;
+  top: 3.6rem;
+  border: 1px solid #292F59;
+}
+
+.search-div{
+  position: relative;
+  /* top: .5rem; */
+  /* padding: .3rem;   */
+}
+
+.fa-search img {
+  position: relative;
+  margin-left: 9.5rem;
+  padding-top: .4rem;
+}
+
+.sidebar-ul {
+  list-style: none;
+  margin-left: -0.9rem;
+}
+
+ul li .sidebar-li {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: 2.4rem;
+  font-family: 'europa';
+  font-size: 0.67rem;
+  font-weight: 550;
+  line-height: 1rem;
+  top: 6rem;
+  padding: 0.8rem 0;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+ul li .sidebar-li:hover {
+  background: #293059;
+}
+
+ul li .sidebar-li img {
+  padding-right: 0.3rem;
+  margin-top: 0rem;
+  color: #cccccc;
+  height: 100%;
+}
+
+
+/* Hamburger for Mobile */
+#mobile-bars
+{
+    position: absolute;
+    left: -35vw;
+	/* top: 3vh; */
+	  top: 14px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#mobile-bars-check
+{
+    display: none;
+}
+
+.stix
+{
+    border-radius: 3px;
+    height: 3px;
+    width: 30px;
+    background-color: dimgray;
+    margin: 5px 0;
+    transition: 0.4s ease;
+}
+
+@media (max-width: 700px)
+{
+
+	.sidebar
+	{
+  		width: 12rem;
+  		left: -100vw;
+  		transition: 0.4s ease-out;
+  		z-index: 5;
+  		padding-top: 4rem;
+  		position: fixed;
+	}
+
+	#mobile-bars
+	{
+        display: block;
+        margin-left: 38vw;
+        z-index: 10;
+        padding-top: 3px;
+        padding-left: 3px;
+        /* top: 3.5rem; */
+    }
+
+
+    #mobile-bars-check:checked ~ #mobile-bars > #stik1
+    {
+        transform: rotate(45deg) translateY(7px) translateX(5px);
+    }
+
+    #mobile-bars-check:checked ~ #mobile-bars > #stik2
+    {
+        width: 0;
+        opacity: 0;
+    }
+
+    #mobile-bars-check:checked ~ #mobile-bars > #stik3
+    {
+        transform: rotate(-45deg) translateY(-8px) translateX(5px);
+    }
+
+    #mobile-bars-check:checked ~ #sidebar
+    {
+        left: 0;
+      }
+
+      .logo {
+      left: 6rem;
+
+      }
+
+}
+
+@media(max-width:580px){
+	.sidebar{
+		width: 12rem;
+	}
+}
+@media(max-width:440px){
+	.sidebar{
+		width: 12rem;
+	}
+
+}
+@media(max-width:360px){
+	.sidebar{
+		width: 12rem;
+	}
+}
+
+@media(max-width: 425px){
+  .logo{
+    margin-top: 2rem;
+    margin-left: -5.3rem;
+  }
+
+  .name-section{
+    margin-top: 2.2rem;
+  }
+  .sidebar-ul{
+    margin-top: 2rem;
+  }
+  .sidebar hr{
+    margin-top: -.5rem;
+    top: 3.6rem;
+  }
+}
+
+
+/* End new */
